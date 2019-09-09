@@ -11,6 +11,8 @@ position: absolute;
 top: 1075px;
 left: 700px;
 display: inline-block;
+background-color: transparent;
+border: none;
 `;
 
 const Line = styled.p`

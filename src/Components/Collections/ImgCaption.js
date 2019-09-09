@@ -46,7 +46,8 @@ transform: rotate(90deg);
 position: absolute;
 bottom: 420px;
 right: 10px;
-
+background-color: transparent;
+border: none;
 `;
 
 

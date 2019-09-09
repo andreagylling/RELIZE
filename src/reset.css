@@ -32,6 +32,12 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+html {
+	width: 1024px;
+	margin: 0 auto;
+}
+
 ol, ul {
 	list-style: none;
 }
