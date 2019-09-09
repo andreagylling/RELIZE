@@ -30,7 +30,7 @@ export default function Navigation() {
     <>
       <Container>
         <HamburgerMenu>
-          <i class="fas fa-bars"></i>
+          <i className="fas fa-bars"></i>
         </HamburgerMenu>
         <Logo src={logo}></Logo>
       </Container>

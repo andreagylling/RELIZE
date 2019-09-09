@@ -4,8 +4,9 @@ import ImgCard from '../Components/Collections/ImgCard';
 import collectionImg1 from '../Assets/Images/orange_trousers.png';
 import collectionImg2 from '../Assets/Images/polo_jacket.jpeg';
 import ImgCaption from '../Components/Collections/ImgCaption';
+import ImgCluster from '../Components/Features/ImgCluster';
 
-const Container = styled.div`
+const CollectionsContainer = styled.div`
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
@@ -17,10 +18,14 @@ width: 513px;
 height: 600px;
 `;
 
+const MainFeature = styled.div`
+margin-bottom: 100px;
+`;
+
 export default function Home() {
   return (
     <>
-      <Container>
+      <CollectionsContainer>
         <Cell>
           <ImgCard img={collectionImg1} />
         </Cell>
@@ -33,7 +38,10 @@ export default function Home() {
         <Cell>
           <ImgCard img={collectionImg2} />
         </Cell>
-      </Container>
+      </CollectionsContainer>
+      <MainFeature>
+        <ImgCluster/>
+      </MainFeature>
     </>
   )
 }
